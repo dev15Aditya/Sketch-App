@@ -37,5 +37,5 @@ def sketch():
         _ = cv2.imwrite(UPLOAD_FOLDER+'/'+sketch_img_name, sketch_img)
         return render_template('home.html',org_img_name=filename,sketch_img_name=sketch_img_name)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
